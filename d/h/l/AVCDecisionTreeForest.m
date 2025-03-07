@@ -498,7 +498,6 @@ BuildDecisionTree[data_,
     If[! MatchQ[preStratifyQ, False | True], Message[BuildDecisionTree::fvalopt, "PreStratify", "False|True"]; Return[{}]];
     
     PRINT[
-     "BuildTree:: ", {Max[minSizeTh, 1], axesArg, nStrata, impFunc, 
       impurityTh, {linCombMinRecs, linCombMaxRecs, svdRank, cdSVDRank, svdLabels}, 
       preStratifyQ}];
     
