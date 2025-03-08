@@ -9,7 +9,6 @@
 **/npm-debug.*
 
 .dockerignore
-.gitignore
 .gitlab-ci.*
 docker-compose.*
 Dockerfile
