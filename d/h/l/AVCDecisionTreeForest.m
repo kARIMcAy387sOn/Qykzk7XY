@@ -444,7 +444,6 @@ BuildDecisionTree[data_,
     ];
     If[ nNumVars < 2,
       {linCombMinRecs, linCombMaxRecs, svdRank, cdSVDRank, svdLabels} = {Length[data], Length[data], 0, 0, {}}
-    ];
     If[TrueQ[linCombMinRecs === Automatic], linCombMinRecs = Floor[0.1 Dimensions[data][[1]]]];
     If[TrueQ[linCombMaxRecs === Automatic], linCombMaxRecs = Dimensions[data][[1]]];
     If[TrueQ[svdRank === Automatic], svdRank = 2];
