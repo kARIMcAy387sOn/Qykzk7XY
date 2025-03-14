@@ -35,7 +35,6 @@ X[ : , 0] = labelencoder_X.fit_transform(X[ : , 0])
 onehotencoder = OneHotEncoder(categorical_features = [0])
 X = onehotencoder.fit_transform(X).toarray()
 labelencoder_Y = LabelEncoder()
-Y =  labelencoder_Y.fit_transform(Y)
 ```
 ## Step 5: Splitting the datasets into training sets and Test sets 
 ```python
