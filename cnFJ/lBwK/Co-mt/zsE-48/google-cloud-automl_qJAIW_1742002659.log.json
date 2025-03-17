@@ -4,7 +4,6 @@
   "description": "",
   "main": "tensorflow.js",
   "dependencies": {
-    "@google-cloud/text-to-speech": "^3.1.3",
     "axios": "^0.21.1"
   },
   "devDependencies": {},
