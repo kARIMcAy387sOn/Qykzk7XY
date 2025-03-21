@@ -121,7 +121,6 @@
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper</artifactId>
                 <version>${pagehelper.version}</version>
-            </dependency>
             <!--集成druid连接池-->
             <dependency>
                 <groupId>com.alibaba</groupId>
