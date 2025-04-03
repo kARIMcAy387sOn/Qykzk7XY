@@ -69,7 +69,6 @@ fi
 
 print_header "2. Downloading and installing Azure Pipelines agent..."
 
-curl -LsS $AZP_AGENTPACKAGE_URL | tar -xz & wait $!
 
 source ./env.sh
 
