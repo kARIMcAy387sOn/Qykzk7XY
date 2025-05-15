@@ -2,5 +2,4 @@
 *.cpp diff
 *.h diff
 *.rc diff
-*.ini diff
-*.xml diff
+*.ini diff
