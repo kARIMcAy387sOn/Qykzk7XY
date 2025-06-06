@@ -7,7 +7,6 @@ packages/node-dev
 packages/**/node_modules
 packages/**/dist
 packages/**/.turbo
-packages/**/*.test.*
 .git
 .github
 !.github/scripts
