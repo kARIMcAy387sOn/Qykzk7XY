@@ -8,7 +8,6 @@
 ^codecov\.yml$
 ^man-roxygen$
 ^\.lintr$
-^\.vscode$
 ^scripts/
 ^archive/
 ^\.github$
