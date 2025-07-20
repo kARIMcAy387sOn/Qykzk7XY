@@ -1,0 +1,39 @@
+#################################################################################
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+# These owners will be the default owners for everything in the repo.
+#################################################################################
+# Learn about CODEOWNERS file format:
+# https://help.github.com/en/articles/about-code-owners
+#################################################################################
+# FYI: Owners will be auto-assigned for code reviews as well
+#################################################################################
+
+# Maintainers own everything: Keptn Maintainers https://github.com/orgs/keptn/teams/maintainers/members
+* @keptn/maintainers
+
+
+########################################################################################################################
+# Special Interests and Approvers (https://github.com/orgs/keptn/teams/approvers/members)
+# Those will be automatically selected as Reviewers for a PR, if the files are touched.
+########################################################################################################################
+
+# Organization owners need a fallback for the CODEOWNERS file
+CODEOWNERS @AloisReitbauer @johannes-b @jetzlstorfer @warber
+
+# Adopters file
+ADOPTERS.md @AloisReitbauer @grabnerandi @jetzlstorfer
+
+# UI / Keptn Bridge
+bridge/ @ermin-muratovic @laneli @Kirdock @heinzburgstaller @TannerGilbert
+
+# Release Notes
+releasenotes/ @johannes-b @warber
+
+# Keptn Spec subfolder (git submodule)
+specification/ @johannes-b @warber
+
+# Pipeline related things
+.github/ @mowies @christian-kreuzberger-dtx
+gh-actions-scripts/ @mowies @christian-kreuzberger-dtx
+
